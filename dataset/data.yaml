@@ -1,0 +1,9 @@
+path: D:\project-computerVision\Smart-Parking-Yolo\dataset
+
+train: images/train
+val: images/valid
+test: images/test
+
+names:
+  0: empty
+  1: occupied
