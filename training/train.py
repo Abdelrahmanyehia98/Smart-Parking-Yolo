@@ -1,15 +1,12 @@
 from ultralytics import YOLO
 import os
 
-# Go to project root
 project_root = r"D:\project-computerVision\Smart-Parking-Yolo"
 
 data_yaml = os.path.join(project_root, "dataset", "data.yaml")
 
-# Load pretrained YOLO model
 model = YOLO("yolov8n.pt")
 
-# Train
 model.train(
     data=data_yaml,
     epochs=50,
