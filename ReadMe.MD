@@ -25,7 +25,7 @@ Smart-Parking-Yolo/
 ├── training/
 │   └── train.py           # Model training script
 ├── app/
-│   └── app.py             # Streamlit web app
+│   └── stramlit_app.py             # Streamlit web app
 └── README.md
 ```
 
@@ -88,7 +88,7 @@ cp runs/parking_yolo_demo/weights/best.pt model/best.pt
 ## Running the App
 
 ```bash
-streamlit run app/app.py
+streamlit run app/stramlit_app.py 
 ```
 
 Then open your browser at `http://localhost:8501`.
